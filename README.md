@@ -93,3 +93,134 @@ ToDoApp
 └── target
      └──pom.xml
 </pre>
+
+⚙️ Hibernate Configuration
+<pre>
+<?xml version="1.0" encoding="UTF-8"?>
+<hibernate-configuration>
+
+<session-factory>
+
+<property name="hibernate.connection.driver_class">
+com.mysql.cj.jdbc.Driver
+</property>
+
+<property name="hibernate.connection.url">
+jdbc:mysql://localhost:3306/todo_db 
+</property>
+
+<property name="hibernate.connection.username">
+root
+</property>
+
+<property name="hibernate.connection.password">
+root
+</property>
+
+<property name="hibernate.dialect">
+org.hibernate.dialect.MySQLDialect
+</property>
+
+<property name="hibernate.show_sql">true</property>
+
+<property name="hibernate.hbm2ddl.auto">update</property>
+
+<mapping class="model.Task"/>
+
+</session-factory>
+
+</hibernate-configuration>
+</pre>
+
+📊 Entity Class (Task.java)
+<pre>
+package model;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name="tasks")
+public class Task {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private int id;
+
+    private String title;
+    private String description;
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+}
+</pre>
+
+🔄 CRUD Operations (DAO Example)
+<pre>
+package dao;
+
+import java.util.List;
+import org.hibernate.Session;
+import org.hibernate.Transaction;
+import org.hibernate.query.Query;
+
+import model.Task;
+import util.HibernateUtil;
+
+public class TaskDAO {
+
+    public void saveTask(Task t) {
+
+        Session session = HibernateUtil.getSessionFactory().openSession();
+        Transaction tx = session.beginTransaction();
+
+        session.persist(t);
+
+        tx.commit();
+        session.close();
+    }
+
+    public List<Task> getTasks(int start){
+
+        Session session = HibernateUtil.getSessionFactory().openSession();
+
+        Query q = session.createQuery("from Task");
+        q.setFirstResult(start);
+        q.setMaxResults(5);
+
+        List<Task> list = q.list();
+
+        session.close();
+
+        return list;
+    }
+}
+</pre>
+📸 Screenshots (Optional)
+📌 Conclusion
+<pre>
+This To-Do List Application demonstrates the use of Hibernate with JSP and Servlets to perform efficient task management operations. The project successfully implements core functionalities such as adding, viewing, updating, and deleting tasks, along with pagination to handle large datasets.
+</pre>
