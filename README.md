@@ -186,6 +186,6 @@ public class TaskDAO {
 📌 Conclusion
 <pre>
 This To-Do List Application demonstrates the use of Hibernate with JSP and Servlets to perform efficient task management operations. 
-The project successfully implements core functionalities such as adding, viewing, updating, and deleting tasks, along with pagination 
-to handle large datasets.
+The project successfully implements core functionalities such as adding, viewing, updating, and deleting tasks, along with 
+pagination to handle large datasets.
 </pre>
