@@ -24,13 +24,13 @@ Tasks are displayed in table format:
 </pre>
 
 📄 Pagination (Important Feature):-
-<pre></pre>
+<pre>
 1.Tasks are shown 5 items per page
 2.Click Next to view next 5 tasks
 3.Click Previous to go back
 
 Example:
-
+  
 ID  Title   Description
 1   Task1   Desc1
 2   Task2   Desc2
