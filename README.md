@@ -95,7 +95,7 @@ ToDoApp
 </pre>
 
 ⚙️ Hibernate Configuration
-<pre>
+
 <?xml version="1.0" encoding="UTF-8"?>
 <hibernate-configuration>
 
@@ -130,7 +130,6 @@ org.hibernate.dialect.MySQLDialect
 </session-factory>
 
 </hibernate-configuration>
-</pre>
 
 📊 Entity Class (Task.java)
 <pre>
