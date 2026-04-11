@@ -54,3 +54,42 @@ ID   Title    Description
 14   Task14   Desc14
 15   Task15   Desc15
 </pre>
+
+🛠️ Technologies Used:-
+<pre>
+1.JDK
+2.Hibernate
+3.JSP & Servlets
+4.MySQL
+5.Apache Tomcat
+6.HTML, CSS
+</pre>
+
+🗂️ Project Structure:-
+<pre>
+ToDoApp
+│── src
+│   ├─ dao     
+|   |  └──TaskDAO.java
+|   |
+│   ├── model 
+|   |  └──Task.java
+|   |
+│   ├── util    
+|   | └──hibernate.cfg.xml
+|   |
+│── src
+│   └── main          
+│     └─── webapp   
+|          ├──delete.jsp
+|          ├──edit.jsp
+|          ├──index.JSP
+|          ├──update.jsp
+|          ├──showtask.jsp
+|          ├──Nextclick.jsp
+|          ├──Nextclick2.jsp
+|          └───Nextclick3.jsp
+|
+└── target
+     └──pom.xml
+</pre>
