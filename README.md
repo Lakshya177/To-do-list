@@ -1,12 +1,12 @@
 # To-do-list
 
-📌 Overview:- 
+📌 Overview
 <pre>
 This is a To-Do List Web Application built using Java, Hibernate, JSP, and Servlets. 
 It helps users manage tasks with CRUD operations and simple pagination.
 </pre>
 
-🚀 Features:-
+🚀 Features
 <pre>
 1 🧾 Task Management
 2 ➕ Add Task (Title, Description)
@@ -23,7 +23,7 @@ Tasks are displayed in table format:
 | 1  | Task 1 | Example desc | Edit / Delete |
 </pre>
 
-📄 Pagination (Important Feature):-
+📄 Pagination (Important Feature)
 <pre>
 1.Tasks are shown 5 items per page
 2.Click Next to view next 5 tasks
@@ -55,7 +55,7 @@ ID   Title    Description
 15   Task15   Desc15
 </pre>
 
-🛠️ Technologies Used:-
+🛠️ Technologies Used
 <pre>
 1.JDK
 2.Hibernate
@@ -65,7 +65,7 @@ ID   Title    Description
 6.HTML, CSS
 </pre>
 
-🗂️ Project Structure:-
+🗂️ Project Structure
 <pre>
 ToDoApp
 │── src
