@@ -191,9 +191,9 @@ a blue-to-purple gradient background.
 
 ## 🔹 2. Show task
 <pre>
-  <img width="1913" height="873" alt="image" src="https://github.com/user-attachments/assets/963c9851-f708-4b16-804f-6df5977a4b4c" />
-Description: A Task List dashboard displaying multiple tasks in a table with ID, title, description, and edit/delete options, along 
-with a logout button on a gradient background
+<img width="1913" height="873" alt="image" src="https://github.com/user-attachments/assets/963c9851-f708-4b16-804f-6df5977a4b4c" />
+Description: A Task List dashboard displaying multiple tasks in a table with ID, title, description, and edit/delete options, 
+along  with a logout button on a gradient background
 </pre>
 
 <br>
