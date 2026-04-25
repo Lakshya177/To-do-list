@@ -185,7 +185,8 @@ public class TaskDAO {
 ## 🔹 1. Home Page
 <pre>
 <img width="1897" height="868" alt="image" src="https://github.com/user-attachments/assets/00e579ac-9341-4711-9ea3-37f980ab963d" />
-Description: A simple To-Do List UI with title and description inputs, an “Add” button, and task navigation links on a gradient background.
+Description: A simple To-Do List UI with title and description inputs, an “Add” button, and task navigation links on a gradient 
+background.
 </pre>
 
 <br>
