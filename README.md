@@ -182,6 +182,11 @@ public class TaskDAO {
 }
 </pre>
 📸 Screenshots (Optional)
+<pre>
+1. Home page
+<img width="1897" height="868" alt="image" src="https://github.com/user-attachments/assets/00e579ac-9341-4711-9ea3-37f980ab963d" />
+</pre>
+
 <br>
 📌 Conclusion
 <pre>
