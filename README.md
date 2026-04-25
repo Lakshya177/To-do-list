@@ -199,13 +199,26 @@ along  with a logout button on a gradient background
 ## 🔹 3. Next Click
 <pre>
 <img width="1891" height="834" alt="image" src="https://github.com/user-attachments/assets/1ffb436a-c9bf-49f3-a082-b1dcbb84c6b9" />
-Description: A Task List page showing a table of tasks with ID, title, and description, along with pagination buttons (1, 2, 3, Next) 
-on a gradient background.
+Description: A Task List page showing a table of tasks with ID, title, and description, along with pagination buttons 
+(1, 2, 3, Next) on a gradient background.
 </pre>
+
+<pre>
+<img width="1909" height="844" alt="image" src="https://github.com/user-attachments/assets/a8a49dc7-56cd-41b0-9cd3-cda34ea18e0a" />
+Description: A Task List-2 page displaying tasks in a table with ID, title, and description, along with pagination controls
+(Previous, 1, 2, 3, Next) on a blue gradient background.
+</pre>
+
+<pre>
+<img width="1919" height="785" alt="image" src="https://github.com/user-attachments/assets/70a3bf6e-7760-4bc1-af71-9a90b9f32ef8" />
+Description: A Task List-3 page showing tasks in a table with ID, title, and description, including pagination 
+(previous, 1, 2, 3) and a logout button on a dark gradient background.
+</pre>
+
 <br>
 📌 Conclusion
 <pre>
-This To-Do List Application demonstrates the use of Hibernate with JSP and Servlets to perform efficient 
-task management operations. The project successfully implements core functionalities such as adding,
-viewing, updating, and deleting tasks, along with pagination to handle large datasets.
+This To-Do List Application demonstrates the use of Hibernate with JSP and Servlets to perform efficient task management operations.
+The project successfully implements core functionalities such as adding,viewing, updating, and deleting tasks, along with pagination
+to handle large datasets.
 </pre>
