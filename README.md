@@ -196,6 +196,12 @@ Description: A Task List dashboard displaying multiple tasks in a table with ID,
 along  with a logout button on a gradient background
 </pre>
 
+## 🔹 3. Next Click
+<pre>
+<img width="1891" height="834" alt="image" src="https://github.com/user-attachments/assets/1ffb436a-c9bf-49f3-a082-b1dcbb84c6b9" />
+Description: A Task List page showing a table of tasks with ID, title, and description, along with pagination buttons (1, 2, 3, Next) 
+on a gradient background.
+</pre>
 <br>
 📌 Conclusion
 <pre>
