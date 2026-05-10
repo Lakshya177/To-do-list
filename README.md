@@ -224,3 +224,16 @@ efficienttask management operations.The project successfully implements core fun
 such as adding,viewing, updating, and deleting tasks, along with paginationto handle large 
 datasets.
 </pre>
+
+## 👨‍💻 Author
+
+**Lakshya Gupta** 
+<pre>
+☕ JDK
+🗄️ Hibernate
+🌐 JSP & Servlets
+🐬 MySQL
+🚀 Apache Tomcat
+📄 HTML
+🎨 CSS
+</pre>
