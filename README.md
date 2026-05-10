@@ -62,7 +62,8 @@ ID   Title    Description
 3.JSP & Servlets
 4.MySQL
 5.Apache Tomcat
-6.HTML, CSS
+6.HTML
+7.CSS
 </pre>
 
 🗂️ Project Structure
